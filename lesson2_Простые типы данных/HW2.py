@@ -110,19 +110,19 @@
 #
 # задание 2
 # Напишите программу, которая получает целое число и возвращает его шестнадцатеричное строковое представление. Функцию hex используйте для проверки своего результата.
-
-BIN = 2
-OCT = 8
-HEX = 16
-num = int(input('Введите число: '))
-
-for div in [BIN, OCT, HEX]:
-    test_num = num
-    result = ''
-    while test_num > 0:
-        result = str(test_num % div) + result
-        test_num //= div
-    print(f'For {div} {result = }')
+#
+# BIN = 2
+# OCT = 8
+# HEX = 16
+# num = int(input('Введите число: '))
+#
+# for div in [BIN, OCT, HEX]:
+#     test_num = num
+#     result = ''
+#     while test_num > 0:
+#         result = str(test_num % div) + result
+#         test_num //= div
+#     print(f'For {div} {result = }')
 
 # Задание 3
 # Напишите программу, которая принимает две строки вида “a/b” - дробь с числителем и знаменателем.
